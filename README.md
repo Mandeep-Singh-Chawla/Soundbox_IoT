@@ -8,7 +8,6 @@ Tests for a Paytm Soundbox-style device. A small REST API publishes a payment to
 - Python 3.9 or newer
 - Docker Desktop, running
 - Port 1883 free
-- Internet access on the first test run
 
 The audio test uses the macOS `say` and `afconvert` commands. On Linux or Windows that test fails. Docker starts the MQTT broker. The first run downloads a speech model and Toxiproxy into `.cache/`.
 
